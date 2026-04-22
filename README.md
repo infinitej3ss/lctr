@@ -12,7 +12,7 @@ git clone git@github.com:infinitej3ss/lctr.git
 cd lctr
 go build
 ```
-This should give you an executable called **LineCounter**
+This should give you an executable called **lctr**
 
 **Usage**
 
@@ -21,7 +21,7 @@ Run the command
 lctr <directory>
 ```
 
-You should see the output `Total Lines: XX`, where `XX` is some integer. Note that lctr only counts lines with content, making it useful for counting lines of code.
+You should see the output `Total Lines: XX` where `XX` is some integer. Note that lctr only counts lines with content, making it useful for counting lines of code. It also excluded dotfiles and binaries (files without an extension).
 
 I have an alias on my machine so I can run lctr easily from wherever I'm at, and you should too!
 

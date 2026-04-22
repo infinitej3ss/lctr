@@ -39,7 +39,7 @@ func main() {
 		return nil
 	})
 
-	// 3. Loop through list, opening each filivke and counting its total lines, adding their counts to an ongoing sum
+	// 3. Loop through list, opening each file and counting its total lines, adding their counts to an ongoing sum
 
 	totalLinesOfCode := 0
 	for _, f := range readableFiles {
